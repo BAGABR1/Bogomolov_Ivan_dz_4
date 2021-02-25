@@ -1,7 +1,7 @@
 def currency_rates(code):
     code = code.upper()
-    index_1 = ''
-    index_2 = ''
+    index_1 = ' '
+    index_2 = ' '
     from requests import get
     response = get('http://www.cbr.ru/scripts/XML_daily.asp')
     if code == 'USD':
